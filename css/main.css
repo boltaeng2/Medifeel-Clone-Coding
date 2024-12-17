@@ -1,0 +1,36 @@
+.inner h2 {
+    color: #bd2c3d;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.inner h3 {
+    color: rgba(0, 0, 0, 1);
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.prod_name {
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.prc {
+    color: rgba(0, 0, 0, 1);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.DC {
+    color: rgba(0, 0, 0, .4);
+    font-size: 18px;
+    text-decoration: line-through;
+    font-weight: 600;
+}
+
+.DC_rate {
+    color: #bd2c3d;
+    font-size: 18px;
+    font-weight: 700;
+}

@@ -1,0 +1,95 @@
+/* reset.css */
+
+/* 1. 모든 요소의 margin, padding, border를 제거 */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Pretendard", "Noso Sans KR", sans-serif;
+  letter-spacing: -0.078rem;
+}
+
+/* 2. 기본 폰트 설정: 시스템 기본 폰트 사용 */
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 3. 이미지 및 비디오 등 미디어의 크기 조정 */
+img,
+picture,
+video,
+iframe,
+object,
+embed,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 4. HTML5 요소에 대한 기본 스타일 제거 (영향을 주지 않음) */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* 5. 링크 스타일 기본값 제거 */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 6. 리스트 스타일 초기화 */
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+/* 7. 테이블 스타일 초기화 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 8. 폼 요소 초기화 */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* 9. 캡션 스타일 */
+caption {
+  text-align: left;
+}
+
+/* 10. 텍스트 강조 스타일 */
+b,
+strong {
+  font-weight: bold;
+}
+
+i,
+em {
+  font-style: normal;
+}
